@@ -1,0 +1,46 @@
+1) SELECT * FROM students;
+
+2) SELECT * FROM trainers;
+
+3) SELECT * FROM assignments;
+
+4) SELECT * FROM courses;
+
+5) SELECT students.Id, students.FirstName, students.LastName, courses.Id, courses.Title, courses.Stream, courses.Type FROM students
+INNER JOIN studentsToCourses
+ON students.Id = studentsToCourses.StudentID
+INNER JOIN courses
+ON courses.Id = studentsTocourses.CourseID
+ORDER BY courses.Id;
+
+6)SELECT trainers.Id, trainers.FirstName, trainers.LastName, courses.Id, courses.Title, courses.Stream, courses.Type FROM trainers
+INNER JOIN TrainersToCourses
+ON trainers.Id = TrainersToCourses.TrainerID
+INNER JOIN courses
+ON courses.Id = TrainersTocourses.CourseID
+ORDER BY courses.Id;
+
+7)SELECT assignments.Id, assignments.Title, assignments.description, courses.Id, courses.Title, courses.Stream, courses.Type FROM assignments
+INNER JOIN AssignmentsToCourses
+ON assignments.Id = AssignmentsToCourses.AssignmentID
+INNER JOIN courses
+ON courses.Id = AssignmentsTocourses.CourseID
+ORDER BY courses.Id;
+
+8)SELECT assignments.Id, assignments.Title, courses.Id, students.Id, students.FirstName, students.LastName FROM assignments
+INNER JOIN AssignmentsToCourses
+ON assignments.Id = AssignmentsToCourses.AssignmentID
+INNER JOIN courses
+ON courses.Id = AssignmentsTocourses.CourseID
+INNER JOIN studentsToCourses
+ON studentsTocourses.CourseID= courses.Id
+INNER JOIN students
+ON students.Id = studentsToCourses.StudentID
+ORDER BY students.Id;
+
+9)SELECT students.Id,students.FirstName, students.LastName, COUNT(studentsTocourses.CourseID)  FROM students
+INNER JOIN studentsToCourses
+ON students.Id = studentsToCourses.StudentID
+GROUP BY students.Id,students.FirstName, students.LastName
+HAVING COUNT(studentsTocourses.CourseID) > 1;
+	

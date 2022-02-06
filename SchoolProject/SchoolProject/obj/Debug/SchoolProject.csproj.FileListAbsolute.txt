@@ -1,0 +1,22 @@
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe.config
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\SchoolProject.pdb
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\EntityFramework.dll
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\EntityFramework.xml
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csproj.AssemblyReference.cache
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csproj.CoreCompileInputs.cache
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\obj\Debug\SchoolProject.exe
+C:\Users\Batis\source\repos\SchoolProject\SchoolProject\obj\Debug\SchoolProject.pdb
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe.config
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\SchoolProject.pdb
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\EntityFramework.dll
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\EntityFramework.xml
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csproj.AssemblyReference.cache
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\obj\Debug\SchoolProject.csproj.CoreCompileInputs.cache
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\obj\Debug\SchoolProject.exe
+C:\Users\Batis\Desktop\New folder\SchoolProject\SchoolProject\obj\Debug\SchoolProject.pdb
